@@ -1,0 +1,36 @@
+	User One-To-Many
+-ID-User -Primary Key
+-Nume/Prenume ~ UserName
+-Email
+-Adresa
+-Grup Preferential (vegetarian / iubitor zacusca / etc.)
+-Istoric-ID -Foreign Key
+
+
+	Alimente - One-To-One?
+-ID-Aliment -Primary Key
+-ID-Categorie -Foreign Key
+-ID-User - Foreign Key
+-DenumireAliment                       If(aliment.id_categorie == id_categorie) denumire = categorie.denumire
+-Data Expirarii
+-Disponibil (DA/NU)
+-Claimed (DA/NU)
+-IfClaimed -> User-ID
+
+                                        10 2 Paine 10.12.2022 DA DA 12
+
+	Categorii Alimente
+-ID-Categorie - Primary Key
+-Denumire
+
+
+
+//Cu sqlLite sau cu altceva?
+
+{
+	Istoric-Alimente - One-To-One
+-Istoric-ID
+-User-ID
+-Aliment-ID
+
+}	
