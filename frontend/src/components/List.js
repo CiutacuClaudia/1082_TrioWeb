@@ -13,7 +13,7 @@ function List() {
             <NavLink to="/frigiderulmeu"className="listItem" activeClassName="ActiveItem">   Frigiderul meu  </NavLink>
             <NavLink to="/produseDisponibile"className="listItem" activeClassName="ActiveItem">  Produse disponibile  </NavLink>
             <NavLink to="/prieteni"className="listItem" activeClassName="ActiveItem">  Prieteni  </NavLink>
-            <NavLink to="/oferaProdus"className="listItem" activeClassName="ActiveItem">  Ofera un produs  </NavLink>
+            
           </div>
         </nav>
       </div>
