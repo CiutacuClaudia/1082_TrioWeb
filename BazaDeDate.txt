@@ -4,7 +4,7 @@
 -Email
 -Adresa
 -Grup Preferential (vegetarian / iubitor zacusca / etc.)
--Istoric-ID -Foreign Key
+//-Istoric-ID -Foreign Key
 
 
 	Alimente - One-To-One?
@@ -34,7 +34,3 @@
 -Aliment-ID
 
 }	
-
-
-
-adaugat acum

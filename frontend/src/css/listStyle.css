@@ -1,0 +1,19 @@
+.listItem{
+    color:violet;
+    font-size: larger;
+    display:contents;
+    white-space:break-spaces;
+    text-align: center;
+}
+
+.container{
+    background-color:black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.ActiveItem{
+    color: white;
+}
